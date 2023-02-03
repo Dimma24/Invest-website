@@ -51,7 +51,7 @@ li a:hover {
    padding: 10px;
    max-width: 500px;
 }
-h1 {
+.container h1 {
    font-weight: 800;
    font-size: 70px;
    margin-top: 30px;
@@ -123,7 +123,7 @@ a {
    margin-left: 20px;
 }
 .hero {
-   margin-top: 40px;
+   margin-top: 50px;
    display: flex;
    flex-direction: row;
    gap: 20px;
@@ -144,6 +144,26 @@ a {
 .grid-img {
    margin: 20px;
    padding: 10px;
+}
+.section {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   margin-top: 8%;
+}
+.texts {
+   background-color: #c293f4;
+   padding: 60px;
+   width: 100%;
+}
+.section p,
+h1 {
+   font-weight: 700;
+   padding: 10px;
+}
+.woman-img img {
+   width: 100%;
 }
 
 @media screen and (max-width: 992px) {
@@ -178,5 +198,8 @@ a {
    .hero-grid {
       flex-direction: column;
       padding-inline: 24px;
+   }
+   .section {
+      flex-direction: column;
    }
 }
