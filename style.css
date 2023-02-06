@@ -163,7 +163,13 @@ h1 {
    padding: 10px;
 }
 .woman-img img {
-   width: 100%;
+   width: 105%;
+}
+.sales-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 8%;
 }
 
 @media screen and (max-width: 992px) {
@@ -201,5 +207,8 @@ h1 {
    }
    .section {
       flex-direction: column;
+   }
+   .texts {
+      padding: 30px;
    }
 }
